@@ -1,6 +1,6 @@
-# App Project
+# Boğaziçi University Course Advisor Bot
 
-This repository contains the code for the App Project, focusing on the generation and answering functionality.
+This repository contains the code for the Course Advisor Bot, which helps students find and get information about courses.
 
 ## Project Structure
 
@@ -13,8 +13,8 @@ This repository contains the code for the App Project, focusing on the generatio
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd app-project
+git clone https://github.com/yasinbastug/BounCourseAdvisorBot.git
+cd BounCourseAdvisorBot
 ```
 
 2. Create and activate a virtual environment:
@@ -28,6 +28,13 @@ source env/bin/activate  # On Linux/Mac
 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+
+4. Set up environment variables:
+Create a `.env` file in the root directory with the following variables:
+```
+MONGO_URI=your_mongodb_connection_string_here
+OPENAI_API_KEY=your_openai_api_key_here
 ```
 
 ## Required Data and Models
